@@ -1,7 +1,6 @@
 nums = [2, 7, 11, 15]
 target = 9
 # O(n)
-"""
 class Solution(object):
     def twoSum(self, nums, target):
         hashmap = {}
@@ -17,7 +16,7 @@ class Solution(object):
 solution = Solution()
 
 print(f"A megoldas: {solution.twoSum(nums, target)}")
-"""
+
 
 #O(n^2)
 class Solution(object):
